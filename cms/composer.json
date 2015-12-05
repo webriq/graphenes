@@ -1,10 +1,10 @@
 {
-    "name": "gridguyz/cms",
+    "name": "webriqcms/cms",
     "type": "project",
-    "description": "Gridguyz skeleton application",
-    "license": "CC-BY-SA-3.0",
+    "description": "WebriQ skeleton application",
+    "license": "BSD-3-Clause",
     "keywords": [
-        "gridguyz",
+        "webriqcms",
         "cms",
         "social",
         "content",
@@ -15,7 +15,7 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/module-installer",
+                "name": "webriqcms/module-installer",
                 "type": "composer-installer",
                 "version": "dev-master",
                 "dist": {
@@ -41,7 +41,7 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/zork",
+                "name": "webriqcms/zork",
                 "type": "library",
                 "version": "dev-master",
                 "dist": {
@@ -72,8 +72,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/core",
-                "type": "gridguyz-modules",
+                "name": "webriqcms/core",
+                "type": "webriqcms-modules",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -82,8 +82,8 @@
                 "require": {
                     "codeplex/phpexcel": "1.*",
                     "ext-pdo_pgsql": "*",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/zork": "*",
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/zork": "*",
                     "php": ">=5.4"
                 },
                 "extra": {
@@ -118,16 +118,16 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/multisite",
-                "type": "gridguyz-modules",
+                "name": "webriqcms/multisite",
+                "type": "webriqcms-modules",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
                     "url": "../repos/multisite.zip"
                 },
                 "require": {
-                    "gridguyz/core": "*",
-                    "gridguyz/module-installer": "*",
+                    "webriqcms/core": "*",
+                    "webriqcms/module-installer": "*",
                     "php": ">=5.4"
                 },
                 "extra": {
@@ -155,8 +155,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/applicationlog",
-                "type": "gridguyz-module",
+                "name": "webriqcms/applicationlog",
+                "type": "webriqcms-module",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -164,8 +164,8 @@
                 },
                 "require": {
                     "php": ">=5.4",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/core": "*"
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/core": "*"
                 },
                 "autoload": {
                     "psr-0": {
@@ -185,8 +185,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/banner",
-                "type": "gridguyz-module",
+                "name": "webriqcms/banner",
+                "type": "webriqcms-module",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -194,8 +194,8 @@
                 },
                 "require": {
                     "php": ">=5.4",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/core": "*"
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/core": "*"
                 },
                 "autoload": {
                     "psr-0": {
@@ -215,8 +215,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/embed",
-                "type": "gridguyz-module",
+                "name": "webriqcms/embed",
+                "type": "webriqcms-module",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -224,8 +224,8 @@
                 },
                 "require": {
                     "php": ">=5.4",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/core": "*"
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/core": "*"
                 },
                 "autoload": {
                     "psr-0": {
@@ -245,8 +245,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/facebooklogin",
-                "type": "gridguyz-module",
+                "name": "webriqcms/facebooklogin",
+                "type": "webriqcms-module",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -255,8 +255,8 @@
                 "require": {
                     "php": ">=5.4",
                     "zendframework/zendoauth": "2.*",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/core": "*"
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/core": "*"
                 },
                 "autoload": {
                     "psr-0": {
@@ -276,8 +276,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/googleanalytics",
-                "type": "gridguyz-module",
+                "name": "webriqcms/googleanalytics",
+                "type": "webriqcms-module",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -285,8 +285,8 @@
                 },
                 "require": {
                     "php": ">=5.4",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/core": "*"
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/core": "*"
                 },
                 "autoload": {
                     "psr-0": {
@@ -306,8 +306,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/googlesiteverification",
-                "type": "gridguyz-module",
+                "name": "webriqcms/googlesiteverification",
+                "type": "webriqcms-module",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -315,8 +315,8 @@
                 },
                 "require": {
                     "php": ">=5.4",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/core": "*"
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/core": "*"
                 },
                 "autoload": {
                     "classmap": [
@@ -333,8 +333,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/openid",
-                "type": "gridguyz-module",
+                "name": "webriqcms/openid",
+                "type": "webriqcms-module",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -343,8 +343,8 @@
                 "require": {
                     "php": ">=5.4",
                     "zendframework/zendopenid": "2.*",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/core": "*"
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/core": "*"
                 },
                 "autoload": {
                     "psr-0": {
@@ -364,8 +364,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gridguyz/share",
-                "type": "gridguyz-module",
+                "name": "webriqcms/share",
+                "type": "webriqcms-module",
                 "version": "dev-master",
                 "dist": {
                     "type": "zip",
@@ -373,8 +373,8 @@
                 },
                 "require": {
                     "php": ">=5.4",
-                    "gridguyz/module-installer": "*",
-                    "gridguyz/core": "*"
+                    "webriqcms/module-installer": "*",
+                    "webriqcms/core": "*"
                 },
                 "autoload": {
                     "psr-0": {
@@ -396,16 +396,16 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.4",
-        "gridguyz/core": "*",
-        "gridguyz/multisite": "*",
-        "gridguyz/applicationlog": "*",
-        "gridguyz/banner": "*",
-        "gridguyz/embed": "*",
-        "gridguyz/facebooklogin": "*",
-        "gridguyz/googleanalytics": "*",
-        "gridguyz/googlesiteverification": "*",
-        "gridguyz/openid": "*",
-        "gridguyz/share": "*"
+        "webriqcms/core": "*",
+        "webriqcms/multisite": "*",
+        "webriqcms/applicationlog": "*",
+        "webriqcms/banner": "*",
+        "webriqcms/embed": "*",
+        "webriqcms/facebooklogin": "*",
+        "webriqcms/googleanalytics": "*",
+        "webriqcms/googlesiteverification": "*",
+        "webriqcms/openid": "*",
+        "webriqcms/share": "*"
     },
     "require-dev": {
         "firephp/firephp-core": "*",
